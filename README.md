@@ -1,8 +1,7 @@
 ## GenSignature
 
-获取安装在手机中的 apk 的签名信息用于[微信平台](https://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN) - 因为从[这里](https://open.weixin.qq.com/cgi-bin/readtemplate?t=resource/app_download_android_tmpl&lang=zh_CN)
-下载的在我的手机(版本 4.4.4)上无法复制生成的签名。
+Generates signature of APK for [WeChat associated development](https://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN). The generated signature is as same as that signature from WeChat [official apk](https://open.weixin.qq.com/cgi-bin/readtemplate?t=resource/app_download_android_tmpl&lang=zh_CN), wrote this code since I cannot copy the signature from official apk on my device android 4.4.
 
-## 安装
+## Usage
 
-下载源码或者直接安装位于项目 `out/production/GenSignature` 目录下的 apk。
+Download source code than build it or just use the built apk under `out/production/GenSignature`.
